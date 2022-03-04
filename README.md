@@ -9,7 +9,7 @@ The different methods (ordered by conceptual difficulty) are
 - batched request (single json-rpc query that contains all the queries we want)
 - multicall (single call to a contract which queries makes all the calls for us. TODO: use [etherplex](https://github.com/pooltogether/etherplex))
 - static multicall (like multicall but without needing to deploy a contract. Makes use of constructor magic)
-- GraphQL (eip-1767 alternative to json-rpc interface. TODO: implement this)
+- GraphQL (eip-1767 alternative to json-rpc interface. Unfortunately not available on free node providers)
 
 ### static multicall wins for small number of calls (although there's very high variance)
 ```
