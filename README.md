@@ -47,3 +47,4 @@ curl --request POST --url $INFURA_ETHEREUM_HTTPS --header 'Content-Type: applica
 - Patrick Collins [What is Multicall](https://www.youtube.com/watch?v=EXas4uBqQr8)
 - Chainstack: [The ultimate guide to getting multiple token balances on Ethereum](https://chainstack.com/the-ultimate-guide-to-getting-multiple-token-balances-on-ethereum/)
 ![](chainstack-benchmark.png)
+- GraphQL api: [chainstack](https://chainstack.com/graphql-on-ethereum-availability-on-chainstack-and-a-quick-rundown/) at least has the api available for paid plans. Other node providers don't even seem to have it on paid plans.
